@@ -132,7 +132,6 @@ const educationInfo = {
   ]
 };
 
-
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
@@ -152,7 +151,6 @@ const techStack = {
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-
 const workExperiences = {
   display: false, //Set it to true to show workExperiences Section
   experience: [
@@ -169,7 +167,6 @@ const workExperiences = {
   ]
 };
 
-
 const openSource = {
   showGithubProfile: "true",
   display: true
@@ -182,7 +179,8 @@ const bigProjects = {
     {
       image: require("./assets/images/ticTacToe.png"),
       projectName: "tic tac toe",
-      projectDesc: "A simple web-based Tic Tac Toe game implemented using HTML, CSS, and JavaScript.",
+      projectDesc:
+        "A simple web-based Tic Tac Toe game implemented using HTML, CSS, and JavaScript.",
       footerLink: [
         {
           name: "Visit Website",
@@ -206,13 +204,14 @@ const bigProjects = {
         {
           name: "Check code",
           url: "https://github.com/ubednama/chat-app"
-        },
+        }
       ]
     },
     {
       image: require("./assets/images/CRUDApp.png"),
       projectName: "CRUD App",
-      projectDesc: "CRUD Application with Server-side Pagination using Node.js, Express, EJS, and MySQL",
+      projectDesc:
+        "CRUD Application with Server-side Pagination using Node.js, Express, EJS, and MySQL",
       footerLink: [
         {
           name: "Check Code",
@@ -262,7 +261,7 @@ const blogSection = {
       url: "",
       title: "",
       description: ""
-    },
+    }
   ],
   display: true
 };
