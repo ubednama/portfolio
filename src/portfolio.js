@@ -52,10 +52,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+      "⚡ Develop highly interactive Front end/User Interfaces for your web applications using technologies like React."
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as AWS")
+    emoji("⚡ Integration of third party services such as AWS"),
+    emoji("⚡ Craft dynamic and scalable web apps with JavaScript and Node.js, seamlessly merging frontend and backend for a unified user experience.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -91,7 +92,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database & MongoDB",
+      skillName: "MongoDB & sql-databases",
       fontAwesomeClassname: "fas fa-database"
     },
     {
