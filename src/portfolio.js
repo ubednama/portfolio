@@ -25,8 +25,8 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀  with passion for building Web applications using JavaScript, Reactjs, Nodejs and some other cool libraries and frameworks. I am also proficient in languages like C++ & Python."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1qFWL8OKoH27A3sYLaDKZY523cE-ICtBs/view?usp=drive_link", // Set to empty to hide the button
+  resumeLink: "",
+    // "https://drive.google.com/file/d/1qFWL8OKoH27A3sYLaDKZY523cE-ICtBs/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true
 };
 
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/ubednama",
   linkedin: "https://www.linkedin.com/in/ubed9/",
-  gmail: "saadpasta70@gmail.com",
+  gmail: "kubedrn@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
   // medium: "https://medium.com/@",
@@ -207,6 +207,32 @@ const bigProjects = {
         {
           name: "Check code",
           url: "https://github.com/ubednama/chat-app"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Textutils.png"),
+      projectName: "Text Utils",
+      projectDesc: "React-based App that provides various text manipulation utilities.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://ubednama.github.io/TextUtils/"
+        },
+        {
+          name: "Check code",
+          url: "https://github.com/ubednama/TextUtils"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/NewsApp.png"),
+      projectName: "YANewsApp",
+      projectDesc: "Web application to read latest news, browse by category",
+      footerLink: [
+        {
+          name: "Check code",
+          url: "https://github.com/ubednama/YANewsApp"
         }
       ]
     },
