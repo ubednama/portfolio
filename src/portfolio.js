@@ -25,8 +25,8 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀  with passion for building Web applications using JavaScript, Reactjs, Nodejs and some other cool libraries and frameworks. I am also proficient in languages like C++ & Python."
   ),
-  resumeLink: "",
-    // "https://drive.google.com/file/d/1qFWL8OKoH27A3sYLaDKZY523cE-ICtBs/view?usp=drive_link", // Set to empty to hide the button
+  resumeLink: 
+    "https://drive.google.com/file/d/1qFWL8OKoH27A3sYLaDKZY523cE-ICtBs/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true
 };
 
@@ -76,6 +76,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "JavaScript",
@@ -155,18 +159,40 @@ const techStack = {
 };
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: "Software Engineer",
-    //   company: "Facebook",
-    //   companylogo: require("./assets/images/facebookLogo.png"),
-    //   date: "June 2018 – Present",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //   descBullets: [
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   ]
-    // }
+    {
+      role: "Full Stack Developer Intern",
+      company: "Kothari Tech",
+      companylogo: require("./assets/images/KTLogo.png"),
+      date: "April 2024 – May 2024",
+      desc: "",
+      descBullets: [
+        "Developed responsive and dynamic web applications at Kothari Tech using HTML, JavaScript React.js and Tailwind CSS, ensuring seamless user experiences for various devices and screen sizes.",
+      ]
+    },
+    {
+      role: "Full Stack Developer Intern",
+      company: "ADM Education Society",
+      companylogo: require("./assets/images/ADMLogo.png"),
+      date: "Oct 2023 – March 2024",
+      desc: "",
+      descBullets: [
+        "Developed responsive websites using a combination of technologies including React.js & Tailwind CSS for various devices and screen sizes.",
+        "Worked closely with design, backend, and QA teams to understand and fulfill customer requirements, ensuring high - quality deliverables",
+      ]
+    },
+    {
+      role: "Web developer Intern",
+      company: "Jennifer Infocom",
+      companylogo: null,
+      date: "July 2021 – April 2022",
+      desc: "",
+      descBullets: [
+        "Developed responsive websites using a combination of technologies including HTML, CSS, JavaScript and WordPress for various devices and screen sizes.",
+        "ustomized WordPress themes and plugins to align with client branding and enhance website functionality",
+      ]
+    }
   ]
 };
 
